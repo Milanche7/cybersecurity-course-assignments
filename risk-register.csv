@@ -1,0 +1,24 @@
+Asset ID,Asset,Risk scenario,Likelihood (1-5),Impact (1-5),Risk score,Priority,Control proposed
+1,Financial ledgers,"Unauthorized access, ransomware, loss of financial records",4,5,20,Critical,Restrict digital ledger access; protect physical storage; maintain secured backups
+2,Business documents and records,"Theft, disclosure, or deletion of contracts and documents",3,4,12,High,Limit document access; protect physical archives; retain recoverable copies
+3,Client personal data,Unauthorized disclosure of client personal information,5,5,25,Critical,"Security-awareness training, network segmentation, least privilege and MFA"
+4,Endpoints and connected devices,Endpoint compromise and potential lateral movement,5,5,25,Critical,"Patch management, strong authentication, least privilege and endpoint protection"
+5,Business applications,Exploitation of outdated applications causing disruption,3,3,9,Moderate,Not prioritized for detailed treatment in this assessment
+6,VPN connectivity,Compromised VPN credentials or keys enabling unauthorized access,5,5,25,Critical,"Secure VPN key handling, MFA where supported, software updates and access restrictions"
+7,Servers and databases,"Server/database intrusion, exfiltration or destruction",5,5,25,Critical,"Server hardening, patching, privileged-access restrictions and MFA where supported"
+8,Company information system,Short outage of a limited information-system component,3,2,6,Moderate,Not prioritized for detailed treatment in this assessment
+9,Colocation server rack,Physical intrusion into a secured colocation rack,1,5,5,Moderate,Not prioritized for detailed treatment in this assessment
+10,User and administrator accounts,Compromise of a privileged account,5,5,25,Critical,"MFA, strong-password policy, role separation, least privilege and training"
+11,Network availability,DDoS affecting internet-facing connectivity,4,2,8,Moderate,Not prioritized for detailed treatment in this assessment
+12,Employee records and offboarding,Former employee account remains active after departure,4,5,20,Critical,Accurate employee records and prompt account deprovisioning
+13,Client directory,Impersonation using outdated client information,2,4,8,Moderate,Not prioritized for detailed treatment in this assessment
+14,Backup data and infrastructure,Backup server compromise and backup deletion,3,5,15,High,"Segment backup infrastructure, restrict access, protect extra copies and test restores"
+15,Client communications,Impersonation or tampering with client correspondence,2,4,8,Moderate,Not prioritized for detailed treatment in this assessment
+16,Company logs and records,Unauthorized alteration or deletion of business records,3,4,12,High,Restrict record modification/deletion; segment systems and back up critical records
+17,Firewall,Firewall compromise or temporary network disruption,2,3,6,Moderate,Not prioritized for detailed treatment in this assessment
+18,Routers and switches,Physical damage or unauthorized device connection,1,4,4,Low,Not prioritized for detailed treatment in this assessment
+19,Passwords and VPN keys,Theft or misuse of passwords and VPN keys,4,5,20,Critical,"Password manager, protected key storage, MFA and staff training"
+20,Email system,Email account compromise and confidential-data exposure,3,5,15,High,"Email filtering, anti-phishing training, strong authentication and MFA"
+21,Data center service agreement,Unclear service responsibilities or availability terms,2,4,8,Moderate,Not prioritized for detailed treatment in this assessment
+22,Business processes,Employee errors caused by unclear procedures,3,4,12,High,Clear accessible procedures and checks for sensitive activities
+23,Employee security knowledge,Phishing and other incidents resulting from insufficient training,4,5,20,Critical,"Recurring awareness training, concise instructions and non-punitive error reporting"
