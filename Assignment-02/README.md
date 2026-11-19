@@ -205,26 +205,6 @@ With more time and access to additional tools, I would carry out a more detailed
 
 Overall, the assessment provided a useful baseline of the system's condition and identified practical steps that could improve its security and reliability.
 
-## 11. Evidence and Screenshots
-
-Screenshots can be added to the [`screenshots/`](screenshots/) folder to support the findings in this report.
-
-Suggested evidence:
-
-| Suggested file name | Evidence |
-|---|---|
-| `01-system-information.png` | Windows version and basic system information |
-| `02-disk-status.png` | Disk capacity and available space |
-| `03-task-manager.png` | CPU, memory, SSD activity, and relevant process |
-| `04-event-viewer-warning.png` | Selected WMI warning event |
-| `05-local-users-and-groups.png` | Local accounts and group membership |
-| `06-bitlocker-status.png` | BitLocker availability and protection status |
-| `07-backup-options.png` | OneDrive or File History options |
-
-Before uploading screenshots, remove or obscure personal account names, computer names, email addresses, device identifiers, recovery keys, serial numbers, network information, and any other private data.
-
----
-
 **Course:** Windows, Linux and Scripting Foundations  
 **Assignment:** 02 — Windows System Check  
 **Document type:** Practical system assessment
