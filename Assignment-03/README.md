@@ -150,26 +150,6 @@ This assignment gave me more practice using PowerShell to collect system informa
 
 The final script combines several of these checks and uses variables, pipeline operations, and `if` conditions to make the results easier to review. It also helped me understand how PowerShell can be used to automate repetitive system checks instead of running every command separately.
 
-## Evidence and Screenshots
-
-Screenshots can be added to a `screenshots/` folder to support the results in this report.
-
-Suggested evidence:
-
-| Suggested file name | Evidence |
-|---|---|
-| `01-powershell-version.png` | PowerShell version information |
-| `02-computer-and-user.png` | Computer name and current user, with identifiers redacted |
-| `03-network-configuration.png` | `Get-NetIPConfiguration` output, with network details redacted |
-| `04-connectivity-and-dns.png` | Internet connectivity and DNS test results |
-| `05-windows-update-service.png` | `wuauserv` status and startup type |
-| `06-disk-usage.png` | Used and free disk space |
-| `07-system-security-check.png` | Output from `SystemSecurityCheck.ps1` |
-
-Before uploading screenshots, remove computer and account names, local IP addresses, gateway and DNS details, device identifiers, and any other information that should not be public.
-
----
-
 **Course:** Windows, Linux and Scripting Foundations  
 **Assignment:** 03 — PowerShell System Check  
 **Document type:** Practical Windows system check and PowerShell automation
