@@ -1,8 +1,5 @@
 # Network Troubleshooting and Security
 
-**Name:** Milan Nikolic  
-**Program and course:** Cybersecurity | Networks & Infrastructure Foundations
-
 ---
 
 ## 1. Problem Analysis and Security Risk Assessment
